@@ -51,4 +51,13 @@ project-root/<br />
 <br />
 
 <b>LAST BUT IMPORTANT</b><br />
-Url 
+Understand the url structure is very important.<br />
+<br />
+http://example.com/page/action1/action2/action3/....<br />
+<br />
+http://example.com is main domain.<br />
+<br />
+"page" is the name of the controller that we will include in the index.php file.<br /> 
+<br />
+whit the "actions", you can do whatever you want.<br />
+<br />
