@@ -14,8 +14,8 @@ To ensure safety and user friendly URL, .htaccess file can be used to rewrite th
 So our file structure will be like that;
 
 
-project-root/
-│
+project-root/<br />
+│<br />
 ├── public/
 │   ├── index.php       // Front Controller
 │   ├── .htaccess       // Optional: Apache configuration file for URL rewriting
