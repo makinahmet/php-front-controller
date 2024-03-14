@@ -1,1 +1,3 @@
-home controller 
+<?php
+echo 'Home Controller';
+?>

@@ -1,1 +1,3 @@
-home view
+<?php
+echo "home";
+?>
