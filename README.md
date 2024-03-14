@@ -61,3 +61,5 @@ http://example.com is main domain.<br />
 <br />
 whit the "actions", you can do whatever you want.<br />
 <br />
+For examle our URL is like that http://example.com/user/deletePost. First we will seperate the url with "/" sign and 
+include UserController.php to index.php file and call deletePost function or codes.
