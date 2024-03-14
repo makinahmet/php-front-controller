@@ -44,7 +44,7 @@ project-root/<br />
 <br />
 <br/>
 <b>FILE NAMING STANDART</b><br />
-
--> Controller class names should be in PascalCase like "HomeController", "UserController" etc.
--> View template names should be lowercase and may include underscores or dashes for word separation, such as "home.php", "user_profile php" etc.
-->  class names should be in PascalCase like "User.php", "UserModel.php", "Product.php", "ProductModel.php";
+<br />
+-> Controller class names should be in PascalCase like "HomeController", "UserController" etc.<br />
+-> View template names should be lowercase and may include underscores or dashes for word separation, such as "home.php", "user_profile php" etc.<br />
+->  class names should be in PascalCase like "User.php", "UserModel.php", "Product.php", "ProductModel.php"<br />
