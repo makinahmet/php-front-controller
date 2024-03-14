@@ -1,4 +1,4 @@
-<h1>PHP FRONT CONTROLLER</h1>
+<h1>PHP MVC FRONT CONTROLLER</h1>
 
 A front controller is a design pattern commonly used in web development to centralize and manage the handling of incoming requests to a web application. It acts as a single entry point for all requests and is responsible for routing the requests to the appropriate handlers or controllers within the application.
 
@@ -11,32 +11,34 @@ Upon receiving a request, the front controller is responsible for determining th
 <b>URL REWRTING</b><br />
 To ensure safety and user friendly URL, .htaccess file can be used to rewrite the url. 
 
+<b>MVC</b><br />
+So the model, view, controller pattern will be our file structure because we need to work with teams too.
+
 So our file structure will be like that;
 
 
 project-root/<br />
 │<br />
-├── public/
-│   ├── index.php       // Front Controller
-│   ├── .htaccess       // Optional: Apache configuration file for URL rewriting
-│   └── assets/         // Directory for static assets (CSS, JavaScript, images)
-│       ├── css/
-│       ├── js/
-│       └── img/
-│
-├── app/
-│   ├── controllers/    // Directory for controller classes
-│   │   └── HomeController.php
-│   │
-│   ├── models/         // Directory for model classes (optional)
-│   │
-│   ├── views/          // Directory for view templates
-│   │   └── home.php
-│   │
-│   └── includes/       // Directory for helper functions or configuration files
-│       └── database.php
-│
-└── vendor/             // Directory for third-party libraries (optional)
-
-
-
+├── public/<br />
+│   ├── index.php       // Front Controller<br />
+│   └── assets/         // Directory for static assets (CSS, JavaScript, images)<br />
+│       ├── css/<br />
+│       ├── js/<br />
+│       └── img/<br />
+│<br />
+├── app/<br />
+│   ├── controllers/    // Directory for controller classes<br />
+│   │   └── HomeController.php<br />
+│   │<br />
+│   ├── models/         // Directory for model classes (optional)<br />
+│   │<br />
+│   ├── views/          // Directory for view templates<br />
+│   │   └── home.php<br />
+│   │<br />
+│   └── includes/       // Directory for helper functions or configuration files<br />
+│       └── database.php<br />
+│<br />
+├── .htaccess           // Apache configuration file for URL rewriting<br />
+│<br />
+└── vendor/             // Directory for third-party libraries (optional)<br />
+<br />
