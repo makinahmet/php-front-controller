@@ -4,5 +4,5 @@ A front controller is a design pattern commonly used in web development to centr
 
 <b style="color: yelow;">Single Entry Point:</b> The front controller serves as the single entry point for all incoming requests to the web application. This simplifies the request handling process by consolidating the logic for handling different types of requests into a single location.
 
-<code style="color: #FFD700;">Bu metin sarı renkte olacak.</code>
+$${\color{red}Red}$$
 
