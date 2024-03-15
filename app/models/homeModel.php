@@ -1,3 +1,3 @@
 <?php
-echo 'home model';
+$databaseInfo = "DATABASE INFO";
 ?>

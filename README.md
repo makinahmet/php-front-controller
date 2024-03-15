@@ -53,13 +53,17 @@ project-root/<br />
 <b>LAST BUT IMPORTANT</b><br />
 Understand the url structure is very important.<br />
 <br />
-http://example.com/page/action1/action2/action3/....<br />
+http://example.com/page/action1/param1/param2/param3/...<br />
 <br />
 http://example.com is main domain.<br />
 <br />
 "page" is the name of the controller that we will include in the index.php file.<br /> 
 <br />
-whit the "actions", you can do whatever you want.<br />
+whit the "action" and "param" values you can do whatever you want.<br />
 <br />
-For examle our URL is like that http://example.com/user/deletePost. First we will seperate the url with "/" sign and 
-include UserController.php to index.php file and call deletePost function or codes.
+For examle our URL is like that http://example.com/User/deletePost. First we will seperate the url with "/" sign and 
+include UserController.php to index.php file and call deletePost function or codes with no params.<br />
+<br />
+For example our URL is like that http://example.com/UserMessages/getMessage/2. Our page is "UserMessagesController.php"
+action is "getMessage" and param1 is "2".<br />
+<br />
