@@ -1,0 +1,11 @@
+body{
+    background-color: #121212;
+    color: white;
+}
+
+.row{
+    margin: auto;
+    width: 50%;
+    border: 3px solid gray;
+    padding: 10px;
+}

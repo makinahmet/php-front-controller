@@ -1,0 +1,1 @@
+document.write("This text is from javascript file included");
