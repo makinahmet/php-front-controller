@@ -15,7 +15,6 @@ index 6 is param3 and so on
 $domain = $urlQueries[1];
 $requestedPage = $urlQueries[2];
 
-
 isset($urlQueries[3]) ? $action = $urlQueries[3] : $action = "";
 isset($urlQueries[4]) ? $param1 = $urlQueries[4] : $param1 = "";
 isset($urlQueries[5]) ? $param2 = $urlQueries[5] : $param2 = "";
@@ -37,5 +36,4 @@ if(file_exists($requestedFilePath))
 else{
     include("../app/controllers/HomeController.php");
 }
-
 ?>

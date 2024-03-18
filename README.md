@@ -31,6 +31,7 @@ project-root/<br />
 │   │   └── HomeController.php<br />
 │   │<br />
 │   ├── models/         // Directory for model classes (optional)<br />
+|   |   └── HomeModel.php<br />
 │   │<br />
 │   ├── views/          // Directory for view templates<br />
 │   │   └── home.php<br />
@@ -47,13 +48,13 @@ project-root/<br />
 <br />
 -> Controller class names should be in PascalCase like "HomeController", "UserController" etc.<br />
 -> View template names should be lowercase and may include underscores or dashes for word separation, such as "home.php", "user_profile php" etc.<br />
--> Class names should be in PascalCase like "User.php", "UserModel.php", "Product.php", "ProductModel.php"<br />
+-> Model names should be in PascalCase like "User.php", "UserModel.php", "Product.php", "ProductModel.php"<br />
 <br />
 
 <b>LAST BUT IMPORTANT</b><br />
 Understand the url structure is very important.<br />
 <br />
-http://example.com/page/action1/param1/param2/param3/...<br />
+http://example.com/page/action/param1/param2/param3/...<br />
 <br />
 http://example.com is main domain.<br />
 <br />
